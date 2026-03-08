@@ -1,0 +1,53 @@
+.search-page{
+padding:30px;
+}
+
+.search-bar{
+display:flex;
+gap:10px;
+margin:20px 0;
+}
+
+.search-bar input{
+
+flex:1;
+padding:12px;
+
+border-radius:8px;
+
+border:1px solid rgba(148,163,184,0.2);
+
+background:#020617;
+color:white;
+}
+
+.search-bar button{
+
+padding:8px 16px;
+
+border-radius:20px;
+
+background:#0f172a;
+
+border:1px solid rgba(148,163,184,0.2);
+
+color:#94a3b8;
+}
+
+.results{
+color:#94a3b8;
+margin-bottom:15px;
+}
+
+.status.flagged{
+
+background:#ef4444;
+
+color:white;
+
+padding:4px 12px;
+
+border-radius:20px;
+
+font-size:12px;
+}
