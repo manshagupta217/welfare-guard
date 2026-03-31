@@ -1,0 +1,19 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top, #0f2f2f, #020617);
+}
+
+.login-card{
+    width: 380px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(19, 23, 34, 0.8);
+    background-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+}
